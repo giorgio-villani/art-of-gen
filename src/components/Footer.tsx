@@ -11,7 +11,9 @@ const Footer: React.FC = () => {
         <button className="m-1 underline text-left">Schedule</button>
       </div>
       <div className="text-center text-xs text-gray-500 grow"></div>
-      <img src="art_of_gen.png" className="h-[50px] m-10" alt="" />
+      <a href="/">
+        <img src="art_of_gen.png" className="h-[50px] m-10" alt="" />
+      </a>
     </footer>
   );
 };
