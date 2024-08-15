@@ -8,7 +8,7 @@ export default function Home() {
         <h2 className="text-3xl">Artists</h2>
         <ul>
           {artists.map((cls) => (
-            <li>{cls.name}</li>
+            <li key={cls.name}>{cls.name}</li>
           ))}
           <li></li>
         </ul>
