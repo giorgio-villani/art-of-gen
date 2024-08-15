@@ -4,7 +4,7 @@ import React from 'react';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-300 max-w-[1200px] items-center text-black w-full mx-auto flex">
+    <footer className="max-w-[1200px] items-center text-black w-full mx-auto flex">
       <div className="flex flex-col m-5">
         <button className="m-1 underline text-left">FAQ</button>
         <button className="m-1 underline text-left">Program</button>
