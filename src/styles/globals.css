@@ -14,3 +14,37 @@
   font-weight: normal;
   font-style: normal;
 }
+
+.split-image-container {
+  display: flex;
+  width: 750px; /* Adjusted width to fit the image size */
+  height: 750px; /* Adjusted height to fit the image size */
+  margin: 0 auto;
+  position: relative;
+}
+
+.split-image {
+  width: 50%; /* Each half takes up exactly half of the total image width */
+  height: 100%;
+  background: url('/hero/AOG_05.jpg'); /* Use the correct image path */
+  background-size: 200% 100%; /* Ensure each half covers half of the image */
+  background-repeat: no-repeat;
+  transition: all 400ms ease;
+}
+
+/* Position the left half of the image */
+.left-half {
+  background-position: left center;
+}
+
+/* Position the right half of the image */
+.right-half {
+  background-position: right center;
+}
+
+/* Hover effect */
+.split-image-container:hover .split-image {
+  margin: 0 24px;
+  transform: scale(1.08) rotateZ(3deg);
+  box-shadow: 0 5px 40px -24px #00ffdd;
+}

@@ -11,13 +11,13 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className="relative max-w-[1200px] items-center text-black w-full mx-auto flex text-mono">
+    <header className="relative max-w-[1200px] items-center text-black w-full mx-auto flex text-xl py-5">
       <a href="/">
-        <img src="art_of_gen.png" className="h-[50px] m-10" alt="" />
+        <img src="icon.jpg" className="h-[75px] " alt="" />
       </a>
       <div className="text-center text-gray-500 grow"></div>
 
-      <div className="flex items-center m-4 ">
+      <div className="flex items-center ">
         <div className="md:hidden m-5">
           <span className="text-2xl cursor-pointer" onClick={toggleMenu} onMouseDown={(e) => e.preventDefault()}>
             {menuOpen ? <RxCross1 /> : <RxHamburgerMenu />}

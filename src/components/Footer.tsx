@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
       </div>
       <div className="text-center text-xs text-gray-500 grow"></div>
       <a href="/">
-        <img src="art_of_gen.png" className="h-[50px] m-10" alt="" />
+        <img src="icon.jpg" className="h-[75px] m-10" alt="" />
       </a>
     </footer>
   );

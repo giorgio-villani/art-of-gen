@@ -48,7 +48,7 @@ const teamMember = ({ name, description, imgSrc, reverse = false, website = '' }
 export default function Artists() {
   return (
     <div className="w-full">
-      <h1 className="text-5xl text-center font-inter">Team</h1>
+      <h1 className="text-5xl text-center font-inter">Artists</h1>
       {artists.map((artist, index) => (
         <section key={artist.name} className={`${index % 2 === 0 ? 'bg-white' : 'bg-gradient-to-b from-gray-100 to-white'} py-5 lg:py-10`}>
           {teamMember({
