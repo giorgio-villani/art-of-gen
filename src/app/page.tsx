@@ -43,8 +43,8 @@ export default function Home() {
       <section className="flex flex-row py-12">
         <div className="basis-1/3 p-4">
           <p className="text-2xl">
-            Dive into the intersection of creativity and technology with "Generations," an innovative art exhibit that explores generative art as both a revolutionary new style and a natural extension
-            of traditional artistic practices.
+            Dive into the intersection of creativity and technology with &quot;Generations,&quot; an innovative art exhibit that explores generative art as both a revolutionary new style and a natural
+            extension of traditional artistic practices.
           </p>
         </div>
         <div className="basis-2/3 p-4 relative overflow-hidden">
