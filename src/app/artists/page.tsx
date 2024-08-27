@@ -26,15 +26,15 @@ const teamMember = ({ name, description, imgSrc, reverse = false, website = '' }
       <img src={imgSrc} alt={name} className={`w-full h-auto object-cover max-w-full max-h-[500px] object-cover`} />
     </div>
     <div className="w-full md:w-1/2 flex p-4">
-      <div className="px-5">
+      <div className="">
         <h2 className="mb-4">
-          <div className="pt-5 text-4xl md:text-5xl" style={{ wordWrap: 'break-word' }}>
+          <div className=" text-4xl md:text-5xl" style={{ wordWrap: 'break-word' }}>
             {name}
           </div>
         </h2>
         {website && (
-          <p className="hover:underline text-customButton pb-3">
-            <a href={website}>Teacher Website</a>
+          <p className="hover:underline text-customButton pb-3 text-forgnRed font-bold">
+            <a href={website}>Website</a>
           </p>
         )}
         <p className="leading-relaxed text-justify mb-4" style={{ wordWrap: 'break-word' }}>
@@ -50,13 +50,14 @@ export default function Artists() {
     <div className="w-full">
       <h1 className="text-5xl text-center font-inter">Artists</h1>
       {artists.map((artist, index) => (
-        <section key={artist.name} className={`${index % 2 === 0 ? 'bg-white' : 'bg-gradient-to-b from-gray-100 to-white'} py-5 lg:py-10`}>
+        <section key={artist.name} className={`bg-white py-5 lg:py-10`}>
           {teamMember({
             name: artist.name,
             description: artist.description,
             imgSrc: `/artists/${artist.picture}`,
             imgClass: 'max-w-full max-h-[500px] object-cover',
             reverse: index % 2 !== 0,
+            website: artist.website,
           })}
         </section>
       ))}

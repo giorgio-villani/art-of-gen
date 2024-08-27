@@ -11,6 +11,9 @@ const config: Config = {
       fontFamily: {
         century: ['"Century Gothic"', 'serif'],
       },
+      colors: {
+        forgnRed: '#E01A28',
+      },
     },
   },
   plugins: [],
