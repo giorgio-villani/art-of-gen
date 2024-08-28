@@ -13,7 +13,7 @@ const Header: React.FC = () => {
   return (
     <header className="relative max-w-[1200px] items-center text-black w-full mx-auto flex text-xl py-5">
       <a href="/">
-        <img src="icon.jpg" className="h-[75px] " alt="" />
+        <img src="AOG_logo_v2.png" className="h-[75px] " alt="" />
       </a>
       <div className="text-center text-gray-500 grow"></div>
 
