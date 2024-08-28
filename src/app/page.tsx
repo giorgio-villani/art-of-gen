@@ -50,7 +50,7 @@ export default function Home() {
         <h2 className="text-center text-5xl font-semibold p-40">The Evolution of Art through Algorithms</h2>
       </section>
       {/* second section */}
-      <section className="flex flex-row py-12">
+      <section className="flex flex-col md:flex-row py-12">
         <div className="basis-1/3 p-4">
           <p className="text-2xl">
             Dive into the intersection of creativity and technology with &quot;Generations,&quot; an innovative art exhibit that explores generative art as both a revolutionary new style and a natural
