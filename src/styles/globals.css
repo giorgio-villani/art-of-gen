@@ -48,3 +48,14 @@
   transform: scale(1.08) rotateZ(3deg);
   box-shadow: 0 5px 40px -24px #00ffdd;
 }
+
+.highlight {
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.highlight:hover {
+  background-color: yellow;
+  color: black;
+}

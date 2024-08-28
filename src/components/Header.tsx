@@ -27,7 +27,9 @@ const Header: React.FC = () => {
           <button className="m-5">
             <a href="/artists">Artists</a>
           </button>
-          <button className="m-5">Donate</button>
+          <button className="p-5 hover:bg-gray-200">
+            <a href="/donate">Donate</a>
+          </button>
           <button className="m-5">
             <a href="/sponsorship">Sponsor</a>
           </button>
@@ -37,8 +39,15 @@ const Header: React.FC = () => {
 
       {menuOpen && (
         <div className="md:hidden min-h-full text-2xl flex flex-col absolute top-[100%] left-0 w-full p-4 bg-white text-center">
-          <button className="p-5 hover:bg-gray-200">Artists</button>
-          <button className="p-5 hover:bg-gray-200">Donate</button>
+          <button className="m-5">
+            <a href="/artists">Artists</a>
+          </button>
+          <button className="p-5 hover:bg-gray-200">
+            <a href="/donate">Donate</a>
+          </button>
+          <button className="m-5">
+            <a href="/sponsorship">Sponsor</a>
+          </button>
           <button className="p-5 hover:bg-gray-200">RSVP</button>
         </div>
       )}

@@ -1,6 +1,5 @@
 import React from 'react';
 import artists from '@/data/artists';
-import Image from 'next/image';
 
 interface TeamMemberProps {
   name: string;

@@ -1,4 +1,9 @@
+import React from 'react';
+// import useIntersectionObserver from '@/hooks/useIntersectionObserver';
+
 export default function Home() {
+  // const { ref, inView } = useIntersectionObserver({ threshold: 0.1 });
+
   return (
     <div className="flex flex-col max-w-screen-xl mx-auto justify-between">
       <section className="mb-10">
@@ -7,7 +12,7 @@ export default function Home() {
             <img
               src="/hero/AOG_03.jpg"
               alt="generative art"
-              className="w-full h-auto ] object-cover"
+              className="w-full h-auto object-cover"
               style={{
                 maxWidth: '100%',
                 objectFit: 'cover',
@@ -66,6 +71,12 @@ export default function Home() {
           art forms. Experience a dynamic fusion of past and future through immersive virtual reality experiences and groundbreaking NFTs, where the boundless possibilities of generative art redefine
           the boundaries of human creativity.
         </p>
+        {/* <p ref={ref}>
+          This exhibit showcases works created through <span className="highlight">algorithms</span>, <span className="highlight">artificial intelligence</span>, and computer-aided processes,
+          highlighting how these modern techniques build upon and transform classical art forms. Experience a dynamic fusion of past and future through immersive{' '}
+          <span className="highlight transition-colors duration-300 ease-in-out">virtual reality experiences</span> and groundbreaking <span className="highlight">NFTs</span>, where the boundless
+          possibilities of generative art redefine the boundaries of human creativity.
+        </p> */}
       </section>
     </div>
   );
