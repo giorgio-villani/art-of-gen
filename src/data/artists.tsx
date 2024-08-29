@@ -17,7 +17,7 @@ const artists = [
   },
   {
     id: '2',
-    name: 'Fernando Mogel',
+    name: 'Fernando Moguel',
     picture: 'fernando.jpg',
     description:
       'Fernando is a multimedia producer and multidisciplinary artist with a deep passion for storytelling and world-building. As the founder of FJM Creative, he is dedicated to helping other builders and creators bring their visions to life through bespoke multimedia production services, including music production, illustration, creative writing, and more. With a rich background that spans performing as the lead singer and Yellow Wiggle for the Latin American Wiggles, managing a TV studio, and publishing illustrated poetry books, Fernando has honed a holistic approach to communication, production, and education. His work is all about weaving narratives and creating immersive worlds using a variety of creative tools and forms of expression. Through FJM Creative, Fernando channels his diverse experiences into helping others realize their creative potential.',
