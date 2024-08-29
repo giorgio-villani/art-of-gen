@@ -33,9 +33,10 @@ const artists = [
   {
     id: '4',
     name: 'Daniel Calderon Arenas',
-    picture: 'daniel.jpg',
+    picture: 'daniel-1.jpg',
     description:
       'Daniel Calderon-Arenas is an Mexican-born artist and educator from Houston, Texas. Daniel teaches courses on coding and digital processes at the K. G. McGovern College of the Arts and also has his own studio art practice. He currently writes generative art algorithms designed for the blockchain and has been exploring code-base creativity since 2016.',
+    website: 'https://linktr.ee/dacaldera',
   },
 ];
 
