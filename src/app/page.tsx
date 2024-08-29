@@ -60,7 +60,7 @@ export default function Home() {
       {/* second section */}
       <section className="flex flex-col md:flex-row py-12">
         <div className="basis-1/3 p-4">
-          <h2 className="text-3xl font-bold pb-4">Learn more about generative art!</h2>
+          <h2 className="text-3xl font-bold pb-4">Immerse yourself in a world of generative art!</h2>
           <p className="text-2xl">
             Dive into the intersection of creativity and technology with &quot;Generations,&quot; an innovative art exhibit that explores generative art as both a revolutionary new style and a natural
             extension of traditional artistic practices.

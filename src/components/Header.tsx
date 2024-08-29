@@ -24,13 +24,13 @@ const Header: React.FC = () => {
           </span>
         </div>
         <div className="hidden md:flex items-centerspace-x-4">
-          <button className="m-5">
+          <button className="p-5 hover:bg-gray-200">
             <a href="/artists">Artists</a>
           </button>
           <button className="p-5 hover:bg-gray-200">
             <a href="/donate">Donate</a>
           </button>
-          <button className="m-5">
+          <button className="p-5 hover:bg-gray-200">
             <a href="/sponsorship">Sponsor</a>
           </button>
           <button className="m-5 p-3 border border-black">RSVP</button>
@@ -39,13 +39,13 @@ const Header: React.FC = () => {
 
       {menuOpen && (
         <div className="md:hidden min-h-full text-2xl flex flex-col absolute top-[100%] left-0 w-full p-4 bg-white text-center">
-          <button className="m-5">
+          <button className="p-5 hover:bg-gray-200">
             <a href="/artists">Artists</a>
           </button>
           <button className="p-5 hover:bg-gray-200">
             <a href="/donate">Donate</a>
           </button>
-          <button className="m-5">
+          <button className="p-5 hover:bg-gray-200">
             <a href="/sponsorship">Sponsor</a>
           </button>
           <button className="p-5 hover:bg-gray-200">RSVP</button>

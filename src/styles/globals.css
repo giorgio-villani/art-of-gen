@@ -17,19 +17,19 @@
 
 .split-image-container {
   display: flex;
-  width: 750px; /* Adjusted width to fit the image size */
-  height: 750px; /* Adjusted height to fit the image size */
+  width: 100%; /* Make the container take up the full width of its parent */
+  max-width: 1000px; /* Optional: Set a max width to control scaling */
   margin: 0 auto;
+  aspect-ratio: 1 / 1; /* Maintain a square aspect ratio */
   position: relative;
 }
 
 .split-image {
-  width: 50%; /* Each half takes up exactly half of the total image width */
-  height: 100%;
-  background: url('/hero/AOG_05.jpg'); /* Use the correct image path */
-  background-size: 200% 100%; /* Ensure each half covers half of the image */
+  flex: 1; /* Each half takes up 50% of the container */
+  background-size: 200% 100%; /* Image is twice the width of each half */
   background-repeat: no-repeat;
   transition: all 400ms ease;
+  background-image: url('/hero/AOG_05.jpg'); /* Correct image path */
 }
 
 /* Position the left half of the image */
