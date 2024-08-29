@@ -25,7 +25,7 @@ export default function Home() {
               <div
                 className="uppercase leading-none"
                 style={{
-                  fontSize: 'clamp(3rem, 10vw, 10rem)',
+                  fontSize: 'clamp(3rem, 25vw, 10rem)',
                 }}
               >
                 <div>Art</div>
@@ -36,7 +36,8 @@ export default function Home() {
               <div className="text-4xl pt-4">
                 {/* <p>Friday - Sunday</p> */}
                 <p>17th-19th October 2024</p>
-                <p className="text-3xl text-forgnRed font-bold pt-1">
+                <p className="text-4xl">East End, HTX</p>
+                <p className="text-2xl text-forgnRed font-bold pt-1">
                   <a href="https://forgn.art" className="hover:underline">
                     FORGN STUDIO
                   </a>
@@ -47,11 +48,19 @@ export default function Home() {
         </div>
       </section>
       <section>
-        <h2 className="text-center text-5xl font-semibold p-40">The Evolution of Art through Algorithms</h2>
+        <h2
+          className="text-center font-semibold py-40 w-full h-full"
+          style={{
+            fontSize: 'clamp(3rem, 5vw, 8rem)',
+          }}
+        >
+          The Evolution of Art through Algorithms
+        </h2>
       </section>
       {/* second section */}
       <section className="flex flex-col md:flex-row py-12">
         <div className="basis-1/3 p-4">
+          <h2 className="text-3xl font-bold pb-4">Learn more about generative art!</h2>
           <p className="text-2xl">
             Dive into the intersection of creativity and technology with &quot;Generations,&quot; an innovative art exhibit that explores generative art as both a revolutionary new style and a natural
             extension of traditional artistic practices.
@@ -65,7 +74,7 @@ export default function Home() {
         </div>
       </section>
       {/* third section */}
-      <section className="text-center text-3xl p-40">
+      <section className="text-center text-2xl py-40 px-5">
         <p>
           This exhibit showcases works created through algorithms, artificial intelligence, and computer-aided processes, highlighting how these modern techniques build upon and transform classical
           art forms. Experience a dynamic fusion of past and future through immersive virtual reality experiences and groundbreaking NFTs, where the boundless possibilities of generative art redefine

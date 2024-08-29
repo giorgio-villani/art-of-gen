@@ -1,5 +1,6 @@
 const artists = [
   {
+    id: '0',
     name: 'Betirri',
     picture: 'betirri.jpg',
     description:
@@ -7,6 +8,7 @@ const artists = [
     website: 'https://betirri.com/',
   },
   {
+    id: '1',
     name: 'Fernando Mogul',
     picture: 'fernando.jpg',
     description:
@@ -14,6 +16,7 @@ const artists = [
     website: 'https://www.fernandojm.com/',
   },
   {
+    id: '2',
     name: 'Giorgio Villani',
     picture: 'giorgio-2.png',
     description:
@@ -21,6 +24,7 @@ const artists = [
     website: 'https://www.spindletop.digital',
   },
   {
+    id: '3',
     name: 'Olesia Y. Rodionova',
     picture: 'olesia-1.jpg',
     description:
