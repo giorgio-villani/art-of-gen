@@ -9,6 +9,14 @@ const artists = [
   },
   {
     id: '1',
+    name: 'Daniel Calderon Arenas',
+    picture: 'daniel-1.jpg',
+    description:
+      'Daniel Calderon-Arenas is an Mexican-born artist and educator from Houston, Texas. Daniel teaches courses on coding and digital processes at the K. G. McGovern College of the Arts and also has his own studio art practice. He currently writes generative art algorithms designed for the blockchain and has been exploring code-base creativity since 2016.',
+    website: 'https://linktr.ee/dacaldera',
+  },
+  {
+    id: '2',
     name: 'Fernando Mogel',
     picture: 'fernando.jpg',
     description:
@@ -16,7 +24,7 @@ const artists = [
     website: 'https://www.fernandojm.com/',
   },
   {
-    id: '2',
+    id: '3',
     name: 'Giorgio Villani',
     picture: 'giorgio-2.png',
     description:
@@ -24,19 +32,11 @@ const artists = [
     website: 'https://www.spindletop.digital',
   },
   {
-    id: '3',
+    id: '4',
     name: 'Olesia Y. Rodionova',
     picture: 'olesia-1.jpg',
     description:
       'Olesia is a versatile artist working in traditional and digital mediums, including watercolor, algorithmic art, blackwork tattooing, and brand conceptualization. An AI enthusiast focused on ethics, she explores the intersection of technology and identity. Originally from Ukraine, she started her U.S. career in 2023 with &quot;Dreaming. POV: you are an android,&quot; a project depicting an android’s perspective in sleep mode. She has since participated in over ten collective shows at Hardy and Nance Studio, the &quot;Don’t Call Me Sweetie&quot; show by Insomnia Gallery, and was published in the fubar.space 2k23 catalogue with a glitch art fashion project.',
-  },
-  {
-    id: '4',
-    name: 'Daniel Calderon Arenas',
-    picture: 'daniel-1.jpg',
-    description:
-      'Daniel Calderon-Arenas is an Mexican-born artist and educator from Houston, Texas. Daniel teaches courses on coding and digital processes at the K. G. McGovern College of the Arts and also has his own studio art practice. He currently writes generative art algorithms designed for the blockchain and has been exploring code-base creativity since 2016.',
-    website: 'https://linktr.ee/dacaldera',
   },
 ];
 
