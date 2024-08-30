@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://forgn.art/art-of-gen_metadata.png',
+        url: 'https://www.theartofgen.com/art-of-gen_metadata.png',
         width: 1200,
         height: 630,
         alt: 'Art of Gen Logo',
