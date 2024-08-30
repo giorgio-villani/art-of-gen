@@ -30,7 +30,9 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'The Art of Gen',
     description: 'The Evolution of Art through Algorithms',
-    images: ['https://www.theartofgen.com/art-of-gen_metadata.png'],
+    images: {
+      url: 'https://www.theartofgen.com/art-of-gen_metadata.png',
+    },
   },
 };
 
