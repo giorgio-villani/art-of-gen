@@ -26,7 +26,7 @@ export default function ClassDetails({ params }: ArtistDetailsProps) {
   }
 
   return (
-    <div className={`max-w-screen-xl mx-auto font-poppins `}>
+    <div className={`max-w-screen-xl mx-auto font-poppins`}>
       <div className="text-center">
         <h2 className="mb-4">
           <div className=" text-4xl md:text-5xl" style={{ wordWrap: 'break-word' }}>
@@ -34,7 +34,7 @@ export default function ClassDetails({ params }: ArtistDetailsProps) {
           </div>
         </h2>
       </div>
-      <div className=" flex flex-col md:flex-row items-center">
+      <div className=" flex flex-col md:flex-row">
         <div className="w-full md:w-1/2 p-4">
           <img src={`/artists/${artist.picture}`} alt={artist.name} className={`w-full h-auto object-cover max-w-full max-h-[500px] object-cover`} />
         </div>
@@ -45,9 +45,11 @@ export default function ClassDetails({ params }: ArtistDetailsProps) {
                 <a href={artist.website}>Website</a>
               </p>
             )}
-            <p className="leading-relaxed text-justify mb-4" style={{ wordWrap: 'break-word' }}>
-              {unescapeHtml(artist.description)}
-            </p>
+            {artist.description.map((paragraph, index) => (
+              <p className="pb-3 leading-relaxed text-justify mb-4" key={index} style={{ wordWrap: 'break-word' }}>
+                {unescapeHtml(paragraph)}
+              </p>
+            ))}
           </div>
         </div>
       </div>
