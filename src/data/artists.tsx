@@ -44,6 +44,15 @@ const artists = [
       'Olesia is a versatile artist working in traditional and digital mediums, including watercolor, algorithmic art, blackwork tattooing, and brand conceptualization. An AI enthusiast focused on ethics, she explores the intersection of technology and identity. Originally from Ukraine, she started her U.S. career in 2023 with &quot;Dreaming. POV: you are an android,&quot; a project depicting an android’s perspective in sleep mode. She has since participated in over ten collective shows at Hardy and Nance Studio, the &quot;Don’t Call Me Sweetie&quot; show by Insomnia Gallery, and was published in the fubar.space 2k23 catalogue with a glitch art fashion project.',
     ],
   },
+  {
+    id: '5',
+    name: 'John Heckel',
+    picture: 'john.jpg',
+    description: [
+      'John Heckel is a lab rat, originally from New Jersey, now working out of Houston, TX as a scientist and artist. His art work incorporates acrylic, light, wood and metal, previously showcased at Sig’s Lagoon, Hardy & Nance and Only Magic Festival. Currently, John is interested in exploring the relationship of light and time, through the placement of lasers and mirrors. ',
+    ],
+    website: 'https://www.instagram.com/raw__data/',
+  },
 ];
 
 export default artists;

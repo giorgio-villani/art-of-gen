@@ -9,8 +9,8 @@ export default function Sponsorship() {
             Gold Sponsorship <span className="text-3xl font-bold">$1,500</span>
           </h2>
           <ul className="text-black text-left mt-4">
+            <li>+ Recognition in post video documentation</li>
             <li>Logo recognition in step n repeat banner</li>
-            <li>Recognition in post video documentation</li>
             <li>Logo recognition on event digital landpage</li>
             <li>Recognition in all programs and print materials</li>
             <li>Verbal recognition at event</li>
@@ -22,7 +22,7 @@ export default function Sponsorship() {
             Silver Sponsorship <span className="text-3xl font-bold">$1,000</span>
           </h2>
           <ul className="text-black text-left mt-4">
-            <li>Logo recognition in step n repeat banner</li>
+            <li>+ Logo recognition in step n repeat banner</li>
             <li>Logo recognition on event digital landpage</li>
             <li>Recognition in all programs and print materials</li>
             <li>Verbal recognition at event</li>
