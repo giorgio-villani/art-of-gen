@@ -28,7 +28,9 @@ const Header: React.FC = () => {
           <LinkButton href="/artists" text="Artists" />
           <LinkButton href="/donate" text="Donate" />
           <LinkButton href="/sponsorship" text="Sponsor" />
-          <button className="m-5 p-3 border border-black">RSVP</button>
+          <a href="https://lu.ma/aezgoax2" target="_blank">
+            <button className="m-5 p-3 border border-black">RSVP</button>
+          </a>
         </div>
       </div>
 
@@ -37,7 +39,9 @@ const Header: React.FC = () => {
           <LinkButton href="/artists" text="Artists" />
           <LinkButton href="/donate" text="Donate" />
           <LinkButton href="/sponsorship" text="Sponsor" />
-          <button className="p-5 hover:bg-gray-200">RSVP</button>
+          <a href="https://lu.ma/aezgoax2" target="_blank">
+            <button className="p-5 hover:bg-gray-200">RSVP</button>
+          </a>
         </div>
       )}
     </header>
