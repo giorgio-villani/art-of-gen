@@ -36,7 +36,7 @@ export default function ClassDetails({ params }: ArtistDetailsProps) {
       </div>
       <div className=" flex flex-col md:flex-row">
         <div className="w-full md:w-1/2 p-4">
-          <img src={`/artists/${artist.picture}`} alt={artist.name} className={`w-full h-auto object-cover max-w-full max-h-[500px] object-cover`} />
+          <img src={`/artists/${artist.picture}`} alt={artist.name} className={`w-full h-auto object-cover max-w-full object-cover`} />
         </div>
         <div className="w-full md:w-1/2 flex p-4">
           <div className="">

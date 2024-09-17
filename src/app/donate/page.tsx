@@ -14,7 +14,6 @@ export default function Donate() {
             Donation Page
           </a>
         </h2>
-
         <p className=" text-left text-center text-justify">
           Your generosity can help us continue this important work. Donations are warmly welcomed and go directly towards supporting the artists and the event. By contributing, you are not only
           helping to make Art of Gen a success, but you are also investing in the future of the arts in the East End. Every donation, big or small, makes a difference.

@@ -29,6 +29,19 @@ const artists = [
   },
   {
     id: '3',
+    name: 'Freddy Chávez Olmos',
+    picture: 'freddy.jpg',
+    description: [
+      'Freddy Chávez Olmos is a multidisciplinary Creative Director with over 17 years of experience in filmmaking and visual effects. He has consistently been at the forefront of emerging technologies, leveraging AI and innovation to empower creators to shape the future of storytelling.',
+      'Born in Puebla, Mexico, he studied special effects make-up in Los Angeles and apprenticed under Dick Smith ("THE EXORCIST"). Based in Vancouver, Freddy has worked on productions by Guillermo del Toro, Neill Blomkamp, Robert Rodriguez, Tim Burton, and Christopher Nolan. His collaborations with VFX studios like Double Negative, Industrial Light & Magic, Weta Digital, and Image Engine include Oscar-winning film "Blade Runner 2049" and Emmy-winning series "The Mandalorian".',
+      "Freddy's short film directorial debut, 'SHHH,' won international awards and earned praise from Guillermo del Toro. A member of the Directors Guild of Canada, he directed CW and Netflix's 'TWO SENTENCE HORROR STORIES' and contributed to the Mexican horror anthology 'LA HORA MARCADA' (2022).",
+      'Currently, Freddy is the Creative Director for AI and Innovation at Boxel Studio and consults to film studios and executives on integrating AI into creative practices.',
+      "He is a sought-after guest speaker at prestigious venues, including TEDx, SAN DIEGO'S COMIC-CON, VISUAL EFFECTS SOCIETY and SIGGRAPH.",
+    ],
+    website: 'https://freddychavezolmos.com/',
+  },
+  {
+    id: '4',
     name: 'Giorgio Villani',
     picture: 'giorgio-2.png',
     description: [
@@ -37,7 +50,7 @@ const artists = [
     website: 'https://www.spindletop.digital',
   },
   {
-    id: '4',
+    id: '5',
     name: 'Olesia Y. Rodionova',
     picture: 'olesia-1.jpg',
     description: [
@@ -45,7 +58,7 @@ const artists = [
     ],
   },
   {
-    id: '5',
+    id: '6',
     name: 'John Heckel',
     picture: 'john.jpg',
     description: [
