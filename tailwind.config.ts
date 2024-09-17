@@ -13,6 +13,7 @@ const config: Config = {
       },
       colors: {
         forgnRed: '#E01A28',
+        freshArtsOrange: '#F1573F',
       },
     },
   },
