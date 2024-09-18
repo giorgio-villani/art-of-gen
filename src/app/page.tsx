@@ -35,7 +35,7 @@ export default function Home() {
               {/* <h2 className="text-4xl">Art Exhibit</h2> */}
               <div className="text-4xl pt-4">
                 {/* <p>Friday - Sunday</p> */}
-                <p>17th-19th October 2024</p>
+                <p>17th October 2024</p>
                 <p className="text-4xl">East End, HTX</p>
                 <p className="text-2xl text-forgnRed font-bold pt-1">
                   <a href="https://forgn.art" className="hover:underline">
