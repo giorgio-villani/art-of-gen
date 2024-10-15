@@ -27,7 +27,7 @@ const Header: React.FC = () => {
         <div className="hidden md:flex items-centerspace-x-4">
           <LinkButton href="/artists" text="Artists" />
           <LinkButton href="/donate" text="Donate" />
-          <LinkButton href="/sponsorship" text="Sponsor" />
+          {/* <LinkButton href="/sponsorship" text="Sponsor" /> */}
           <a href="https://lu.ma/aezgoax2" target="_blank">
             <button className="m-5 p-3 border border-black">RSVP</button>
           </a>
@@ -38,7 +38,7 @@ const Header: React.FC = () => {
         <div className="md:hidden min-h-full text-2xl flex flex-col absolute top-[100%] left-0 w-full p-4 bg-white text-center">
           <LinkButton href="/artists" text="Artists" />
           <LinkButton href="/donate" text="Donate" />
-          <LinkButton href="/sponsorship" text="Sponsor" />
+          {/* <LinkButton href="/sponsorship" text="Sponsor" /> */}
           <a href="https://lu.ma/aezgoax2" target="_blank">
             <button className="p-5 hover:bg-gray-200">RSVP</button>
           </a>
