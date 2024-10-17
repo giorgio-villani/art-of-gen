@@ -57,6 +57,22 @@ const pieces = [
     description: [''],
     website: 'https://www.instagram.com/skogsnegl/',
   },
+  {
+    id: '7',
+    name: 'Passion & Profession',
+    artist: 'Betirri',
+    picture: 'passion-and-profession.jpg',
+    description: [''],
+    website: 'https://www.instagram.com/artistbetirri/',
+  },
+  {
+    id: '8',
+    name: 'Tres notas para decir',
+    artist: 'XZZX & Justin Earl Grant',
+    picture: '',
+    description: [''],
+    website: 'https://www.instagram.com/artistbetirri/',
+  },
 ];
 
 export default pieces;

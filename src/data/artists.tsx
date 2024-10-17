@@ -66,6 +66,45 @@ const artists = [
     ],
     website: 'https://www.instagram.com/raw__data/',
   },
+  {
+    id: '7',
+    name: 'XZZX',
+    picture: 'xzzx.jpg',
+    description: [
+      '(b. 1979) Is a multidisciplinary artist, curator, and cultural manager of South American origin who has been living in Houston since 2016. She has developed independent curatorial projects in Buenos Aires, Santiago de Chile, Montevideo and in Houston.',
+      'Her interests have been various; among them are the development of projects in the field of visual communication, including installation, urban art, folk art, fashion, sculpture, video, jewelry, illustration and painting. Her projects and her work have been exhibited in spaces such as Galería Buenos Aires Sur, Espacio Matta, Houston Center for Contemporary Craft, Institute of Hispanic Culture of Houston, Sawyer Yards, Archway Gallery, The Museum of Fine Arts, Houston, and Craighead Green Gallery.',
+      'She graduated in Graphic Communication from the ALPES Professional Institute in Santiago de Chile. She later received a certificate in Strategic Design Management from the Graduate School of the University of Buenos Aires, along with continual studies in art history and criticism.',
+    ],
+    website: 'https://www.instagram.com/xzzxart/',
+  },
+  {
+    id: '8',
+    name: 'Justin Earl Grant',
+    picture: 'justin.jpg',
+    description: [
+      'Justin Earl Grant was born and raised on the Gulf Coast of Texas, La Porte, in the 1980s. Grant received a Bachelor of Science in Pure Mathematics from UT-Austin in 2005. From an early age he expressed interest in the visual arts, particularly in painting. In 2006 he settled in Buenos Aires, Argentina where he developed as an “outsider” artist, participating intensetly with different artistic groups. In 2014 he moved to Santiago de Chile where he part in the creative leadership of the group Radicales together with the Urbn Santiago collective. In 2016 Grant returned to Houston, Texas, where he continues to produce unique and highly personal works of art.',
+      'Her interests have been various; among them are the development of projects in the field of visual communication, including installation, urban art, folk art, fashion, sculpture, video, jewelry, illustration and painting. Her projects and her work have been exhibited in spaces such as Galería Buenos Aires Sur, Espacio Matta, Houston Center for Contemporary Craft, Institute of Hispanic Culture of Houston, Sawyer Yards, Archway Gallery, The Museum of Fine Arts, Houston, and Craighead Green Gallery.',
+    ],
+    website: 'https://justinearlgrant.com/',
+  },
+  {
+    id: '9',
+    name: 'Bailey Ryherd',
+    picture: 'bailey-1.jpg',
+    description: [
+      "'Bailey Ryherd is a versatile artist with over a decade of experience in polymer clay sculptures, digital art, ink drawings, and concept art. Since 2010, she has taken commissions, creating unique and imaginative pieces that showcase her diverse skills and dedication to her craft.",
+    ],
+    website: 'https://linktr.ee/skogsnegl',
+  },
+  {
+    id: '10',
+    name: 'Shelley Townsend',
+    picture: 'shelley-1.jpg',
+    description: [
+      'Shelley D. Townsend, born in Houston, Texas, began her artistic journey in Europe, where her family moved to support her mothers opera career. Living in Paris and Milan for eleven years, she was inspired by Italian sculptor Ernesto Ornati to pursue sculpture. Townsend honed her craft at Loretto Heights College in Denver, Colorado, earning BFA degrees in both Sculpture and Painting. Her career flourished in New York City and later in Connecticut, where she studied under Peter Rubino. Now back in Houston, Townsend has produced a significant body of work and enjoys teaching sculpture, sharing her passion for creating beauty in its most natural form.',
+    ],
+    website: 'http://sculpturestudieswithshelley.info/Houstons_Premiere_Ceramic_Figure_Sculpture_Studio.html',
+  },
 ];
 
 export default artists;
