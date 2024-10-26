@@ -87,6 +87,39 @@ export default function Home() {
           possibilities of generative art redefine the boundaries of human creativity.
         </p> */}
       </section>
+      <section>
+        <h2
+          className="text-center font-semibold py-20 w-full h-full"
+          style={{
+            fontSize: 'clamp(3rem, 5vw, 8rem)',
+          }}
+        >
+          Supporters
+        </h2>
+        <div className="flex flex-wrap justify-center items-center gap-4 py-8">
+          <a href="https://www.8thwonder.com/" target="_blank" rel="noopener noreferrer">
+            <img src="./logos/8wb.png" alt="8th Wonder Brewery" className="h-28" />
+          </a>
+          <a href="https://www.oldparrscotch.com/" target="_blank" rel="noopener noreferrer">
+            <img src="./logos/old-parr.webp" alt="Old Par" className="h-28" />
+          </a>
+          <a href="https://www.coca-cola.com/us/en/brands/topo-chico" target="_blank" rel="noopener noreferrer">
+            <img src="./logos/Topo-Chico.png" alt="Topo Chico" className="h-28" />
+          </a>
+          <a href="https://www.edenplantco.com/" target="_blank" rel="noopener noreferrer">
+            <img src="./logos/eden-plant.webp" alt="Eden Plant Co" className="h-28" />
+          </a>
+          <a href="https://www.fresharts.org/" target="_blank" rel="noopener noreferrer">
+            <img src="./logos/fresh-arts.jpg" alt="Fresh Arts" className="h-28" />
+          </a>
+          <a href="https://eastendmakerhub.org/" target="_blank" rel="noopener noreferrer">
+            <img src="./logos/EEMH.jpg" alt="East End Maker Hub" className="h-28" />
+          </a>
+          <a href="https://www.forgn.art/" target="_blank" rel="noopener noreferrer">
+            <img src="./logos/forgn_metadata.png" alt="Forgn" className="h-28" />
+          </a>
+        </div>
+      </section>
     </div>
   );
 }
