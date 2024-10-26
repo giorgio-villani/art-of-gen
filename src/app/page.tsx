@@ -115,6 +115,12 @@ export default function Home() {
           <a href="https://eastendmakerhub.org/" target="_blank" rel="noopener noreferrer">
             <img src="./logos/EEMH.jpg" alt="East End Maker Hub" className="h-28" />
           </a>
+          <a href="https://www.goalpark.org/" target="_blank" rel="noopener noreferrer">
+            <img src="./logos/pendlum-productions.png" alt="Goal Park" className="h-28 " />
+          </a>
+          <a href="https://www.goalpark.org/" target="_blank" rel="noopener noreferrer">
+            <img src="./logos/goal-park.png" alt="Goal Park" className="h-28 invert " />
+          </a>
           <a href="https://www.forgn.art/" target="_blank" rel="noopener noreferrer">
             <img src="./logos/forgn_metadata.png" alt="Forgn" className="h-28" />
           </a>
