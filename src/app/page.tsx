@@ -106,7 +106,7 @@ export default function Home() {
           <a href="https://www.coca-cola.com/us/en/brands/topo-chico" target="_blank" rel="noopener noreferrer">
             <img src="./logos/Topo-Chico.png" alt="Topo Chico" className="h-28" />
           </a>
-          <a href="https://www.edenplantco.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/edenplant.co" target="_blank" rel="noopener noreferrer">
             <img src="./logos/eden-plant.webp" alt="Eden Plant Co" className="h-28" />
           </a>
           <a href="https://www.fresharts.org/" target="_blank" rel="noopener noreferrer">
@@ -115,7 +115,7 @@ export default function Home() {
           <a href="https://eastendmakerhub.org/" target="_blank" rel="noopener noreferrer">
             <img src="./logos/EEMH.jpg" alt="East End Maker Hub" className="h-28" />
           </a>
-          <a href="https://www.goalpark.org/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.thesyneverse.com/" target="_blank" rel="noopener noreferrer">
             <img src="./logos/pendlum-productions.png" alt="Goal Park" className="h-28 " />
           </a>
           <a href="https://www.goalpark.org/" target="_blank" rel="noopener noreferrer">
