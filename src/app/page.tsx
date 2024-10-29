@@ -9,15 +9,17 @@ export default function Home() {
       <section className="mb-10">
         <div className="mx-auto flex flex-col md:flex-row flex-col-reverse">
           <div className="md:pl-5 p-5 max-w-[800px]">
-            <img
-              src="/hero/AOG_03.jpg"
-              alt="generative art"
+            <video
+              src="./art-of-gen-vid.mp4"
               className="w-full h-auto object-cover"
               style={{
                 maxWidth: '100%',
                 objectFit: 'cover',
               }}
-            />
+              autoPlay
+              muted
+              loop
+            ></video>
           </div>
 
           <div className="text-center md:text-center flex-grow">
@@ -120,6 +122,9 @@ export default function Home() {
           </a>
           <a href="https://www.goalpark.org/" target="_blank" rel="noopener noreferrer">
             <img src="./logos/goal-park.png" alt="Goal Park" className="h-28 invert " />
+          </a>
+          <a href="https://www.buildcities.network/" target="_blank" rel="noopener noreferrer">
+            <img src="./logos/build_.jpg" alt="build_" className="h-28 " />
           </a>
           <a href="https://www.forgn.art/" target="_blank" rel="noopener noreferrer">
             <img src="./logos/forgn_metadata.png" alt="Forgn" className="h-28" />
