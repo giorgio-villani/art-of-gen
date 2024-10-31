@@ -24,7 +24,7 @@ const pieces = [
     picture: 'tres-notas-para-decir-2.jpg',
     video: '',
     description: [''],
-    website: 'https://www.instagram.com/artistbetirri/',
+    website: 'https://www.instagram.com/xzzxart/',
   },
   {
     id: '3',
@@ -82,6 +82,15 @@ const pieces = [
     video: '',
     description: [''],
     website: 'https://www.instagram.com/artistbetirri/',
+  },
+  {
+    id: '9',
+    name: 'Random Blocks',
+    artist: 'DCA',
+    picture: 'random-blocks-square.jpg',
+    video: '',
+    description: [''],
+    website: 'https://www.instagram.com/dacaldera/',
   },
 ];
 

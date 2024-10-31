@@ -35,7 +35,7 @@ export default function PieceDetails({ params }: PieceDetailsProps) {
         </h2>
         <div className="text-xl md:text-2xl">{piece.artist}</div>
         <p className="hover:underline text-customButton pb-3 text-forgnRed font-bold">
-          <a href={piece.website}>Website</a>
+          <a href={piece.website}>{piece.website}</a>
         </p>
       </div>
       <div className="flex flex-col md:flex-row">
@@ -52,7 +52,7 @@ export default function PieceDetails({ params }: PieceDetailsProps) {
               ></iframe>
             </div>
           ) : (
-            <img src={`/pieces/${piece.picture}`} alt={piece.name} className="w-full h-auto object-cover max-w-full" />
+            <img src={`/pieces/${piece.picture}`} alt={piece.name} className="max-h-[750px] mx-auto w-auto object-cover" />
           )}
         </div>
       </div>
