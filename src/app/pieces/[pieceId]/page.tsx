@@ -1,4 +1,4 @@
-import { notFound, useParams } from 'next/navigation';
+import { notFound } from 'next/navigation';
 import pieces from '@/data/pieces';
 
 interface PieceDetailsProps {
@@ -16,7 +16,7 @@ const unescapeHtml = (escapedStr: string) => {
     .replace(/&amp;/g, '&');
 };
 
-export default function ClassDetails({ params }: PieceDetailsProps) {
+export default function PieceDetails({ params }: PieceDetailsProps) {
   const { pieceId } = params;
 
   const piece = pieces.find((piece) => piece.id === pieceId);
@@ -38,9 +38,22 @@ export default function ClassDetails({ params }: PieceDetailsProps) {
           <a href={piece.website}>Website</a>
         </p>
       </div>
-      <div className=" flex flex-col md:flex-row">
+      <div className="flex flex-col md:flex-row">
         <div className="w-full p-4">
-          <img src={`/pieces/${piece.picture}`} alt={piece.name} className={`w-full h-auto object-cover max-w-full object-cover`} />
+          {piece.video ? (
+            <div className="relative" style={{ paddingBottom: '56.25%', height: 0 }}>
+              <iframe
+                src={`https://www.youtube.com/embed/${piece.video}?autoplay=1&mute=1`}
+                title={piece.name}
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="absolute top-0 left-0 w-full h-full"
+              ></iframe>
+            </div>
+          ) : (
+            <img src={`/pieces/${piece.picture}`} alt={piece.name} className="w-full h-auto object-cover max-w-full" />
+          )}
         </div>
       </div>
     </div>
