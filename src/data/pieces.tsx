@@ -22,7 +22,7 @@ const pieces = [
     name: 'Tres notas para decir',
     artist: 'XZZX & Justin Earl Grant',
     picture: 'tres-notas-para-decir-2.jpg',
-    video: '',
+    video: 'adfRyYwk9dg',
     description: [''],
     website: 'https://www.instagram.com/xzzxart/',
   },
@@ -81,7 +81,7 @@ const pieces = [
     picture: 'passion-and-profession.jpg',
     video: '',
     description: [''],
-    website: 'https://www.instagram.com/artistbetirri/',
+    website: 'https://betirri.com/',
   },
   {
     id: '9',
